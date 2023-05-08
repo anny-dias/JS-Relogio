@@ -1,0 +1,10 @@
+body{
+    background-image: linear-gradient(to left, rgb(255, 172, 223), rgb(225, 225, 255), rgb(255, 168, 255));
+}
+
+#msgData{
+    color: rgb(184, 59, 184);
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

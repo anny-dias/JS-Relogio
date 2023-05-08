@@ -1,12 +1,16 @@
 // retorna a data
-msgData = document.getElementById('msgData')
+msg = document.getElementById('msgData')
 let data = new Date()
 //document.write(data)
 //document.write("<br><br>");
 
+msg.innerHTML += `<p>${data}</p>`
 
-
-
+//tempo
+function BemVindo(){
+    alert("Olá Dev, tudo bem?")
+}
+setTimeout(BemVindo, 1000)
 
 
 
